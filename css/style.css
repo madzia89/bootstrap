@@ -1,0 +1,23 @@
+body {
+     background-color: floralwhite;
+     margin-top: 1%;
+ }
+.box {
+    background-color:#DDA0DD;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 6px;
+    border: 1px solid #191970;
+    color: #191970;
+    font-family: "Apple Color Emoji";
+    font-size: 1.2rem;
+    text-align: justify;
+    height: 100%;
+}
+h1{
+    background: white;
+    text-align: center;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    color: rebeccapurple;
+}
