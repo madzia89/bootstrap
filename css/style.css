@@ -1,6 +1,5 @@
 body {
      background-color: white;
-     margin-top: 1%;
  }
 .box {
     background-color:white;
@@ -15,4 +14,22 @@ body {
 h1{
     background: white;
     text-align: center;
+}
+
+.alert__first{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 50;
+    text-align: center;
+}
+/*stylowanie kolorów burgera poniżej. Tło burgera jest zależne od tła reszty navbara*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,128,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.carousel-style-class {
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    height: 80vh;
 }
